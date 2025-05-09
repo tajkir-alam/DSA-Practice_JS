@@ -30,13 +30,22 @@ class DynamicArray {
 }
 
 const arr = new DynamicArray();
+arr.insert(2);
 arr.insert(5);
-arr.insert(5);
+arr.insert(23);
 arr.insert(51);
-arr.insert(51);
-arr.insert(51);
-arr.insert(51);
-arr.insert(1);
-arr.insert(1);
-arr.insert(1);
 console.log(arr.array);
+
+
+// -----------------------------------------------------------------
+//* # Input output mapping
+// In this code we are adding a value which is going to index 0. and all values are shifting to the right so the 0 index could be get free
+
+//* Step-by-step cost break down
+// If memory is full then its creating a new array which is O(n).
+// As it's creating a new array the space complexity is O(n).
+// The sifting is also O(n).
+// So the overall time complexity is O(n) and space complexity is O(n).
+
+//* Suggested Optimization
+// I think this is the perfect optimization. No suggessions for optimization for this.
