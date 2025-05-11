@@ -38,7 +38,7 @@ console.log(arr.array);
 
 
 // -----------------------------------------------------------------
-//* # Input output mapping
+//* Input output mapping
 // In this code we are adding a value which is going to index 0. and all values are shifting to the right so the 0 index could be get free
 
 //* Step-by-step cost break down
